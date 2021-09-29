@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textHeaderLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Android Development"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="#9fa8da"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textSubHeaderLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Andriod is fun"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:textColor="#d32f2f"
+        android:textStyle="italic"
+        android:layout_below="@+id/textHeaderLayout"
+        />
+    />
+    <ImageView
+        android:id="@+id/imageTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/tony_stark_new"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/buttonPanelClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Click here"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"/>
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:layout_below="@+id/textSubHeaderLayout"/>
+
+</RelativeLayout>
